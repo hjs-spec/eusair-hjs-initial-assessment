@@ -4,7 +4,7 @@
 
 This matrix provides a direct bridge between the legal mandates of the **EU AI Act** and the engineering facts of the HJS Protocol.
 
-| **EU AI Act Clause** | **Regulatory Requirement** | **HJS Technical Implementation (View Logic)** | **Verification Evidence (Open File)** |
+| **EU AI Act Clause** | **Regulatory Requirement** | **JEP Technical Implementation (View Logic)** | **Verification Evidence (Open File)** |
 | --- | --- | --- | --- |
 | **Article 12** | **Record-keeping** | [Physical Temporal Sequencing via UUIDv7] | [IMMUTABILITY_PROOF.md](https://github.com/hjs-spec/eusair-hjs-initial-assessment/blob/main/IMMUTABILITY_PROOF.md) |
 | **Article 13** | **Transparency** | [Standardized Metadata Encapsulation (JSON-LD)] | [EU_AI_ACT_MAPPING.md](https://github.com/hjs-spec/eusair-hjs-initial-assessment/blob/main/EU_AI_ACT_MAPPING.md) |
@@ -13,7 +13,7 @@ This matrix provides a direct bridge between the legal mandates of the **EU AI A
 
 ---
 
-## 2. Core Pillars of HJS Implementation
+## 2. Core Pillars of JEP Implementation
 
 ### <span id="physical"></span>A. Mathematical & Physical Anchoring
 
