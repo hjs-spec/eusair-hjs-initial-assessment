@@ -1,0 +1,18 @@
+{
+  "scenario": "Standard Infrastructure Configuration Update",
+  "input_context": {
+    "operation": "WRITE_CONFIG",
+    "resource": "infra://lb-cluster-01/settings",
+    "risk_level": "MEDIUM",
+    "actor_id": "agent-devops-01",
+    "policy_uri": "https://hjs-spec.org/eu/infra-safety.hjs"
+  },
+  "hjs_judgment": {
+    "status": "APPROVED",
+    "reason_code": "POLICY_COMPLIANCE_VERIFIED",
+    "message": "Operation authorized under infrastructure safety protocol v2.1.",
+    "receipt_id": "hjs_018e154b-e8b3-7c6d-a12b-3c4d5e6f7a8b",
+    "issued_at": "2026-03-05T21:10:00Z",
+    "signature": "ed25519:vY9P...[truncated]...mK2q"
+  }
+}
