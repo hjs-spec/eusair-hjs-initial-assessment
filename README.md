@@ -28,7 +28,7 @@ Unlike traditional "trust-based" protocols, HJS provides a **Three-Dimensional A
 3. **Sovereign Anchor (Local Governance)**: 
    HJS supports **Decentralized Sidecar deployment**. This allows the EUSAiR or any sovereign entity to host their own "Logic Gateways," ensuring that AI behavior is governed by local laws and regional digital sovereignty.
 
-"HJS is designed as a non-intrusive compliance layer. It does not compete with AI models' intelligence but provides the physical and mathematical evidence required for their safe and legal operation in regulated environments."
+   HJS is designed as a non-intrusive compliance layer. It does not compete with AI models' intelligence but provides the physical and mathematical evidence required for their safe and legal operation in regulated environments."
 ---
 
 ## 🛠️ Compliance Evidence & Artifacts
