@@ -42,7 +42,7 @@ To balance **Public Accountability** with **Private Sovereignty**, HJS utilizes 
 
 Auditors can verify the immutability of any HJS record using standard cryptographic tools:
 
-```bash
+
 # Example: Verify the integrity of a Judgment Receipt
 # 1. Check timestamp consistency in UUIDv7
 # 2. Re-hash the payload to verify SHA-256
