@@ -1,12 +1,12 @@
 # Statement of Technical Neutrality & Zero-Data Access
 
-The HJS Sidecar is architected as a **stateless verification anchor**. It ensures regulatory compliance by anchoring the *integrity* of a decision without accessing the *sensitivity* of the underlying business payload.
+The JEP Sidecar is architected as a **stateless verification anchor**. It ensures regulatory compliance by anchoring the *integrity* of a decision without accessing the *sensitivity* of the underlying business payload.
 
 ---
 
 ### 1. Data Minimization (Article 10 & GDPR Compliance)
 
-HJS operates on a **"Zero-Payload"** principle to ensure the highest standards of data privacy and security.
+JEP operates on a **"Zero-Payload"** principle to ensure the highest standards of data privacy and security.
 
 * **Engineering Fact: Metadata-Only Processing**
 * The Sidecar only processes the `JudgmentContext` (system metadata, timestamps, and identity headers).
@@ -14,7 +14,7 @@ HJS operates on a **"Zero-Payload"** principle to ensure the highest standards o
 
 
 * **Engineering Fact: Hash-Based Policy Binding**
-* HJS uses **SHA-256 cryptographic hashes** to bind judgments to safety policies.
+* JEP uses **SHA-256 cryptographic hashes** to bind judgments to safety policies.
 * The Sidecar verifies the *version* and *integrity* of a policy without ever requiring access to the plain text of private or proprietary business logic.
 
 
@@ -24,10 +24,10 @@ HJS operates on a **"Zero-Payload"** principle to ensure the highest standards o
 
 ### 2. Infrastructure & Vendor Neutrality
 
-HJS is designed to be infrastructure-agnostic, preventing vendor lock-in and respecting the **Digital Sovereignty** of the deploying entity.
+JEP is designed to be infrastructure-agnostic, preventing vendor lock-in and respecting the **Digital Sovereignty** of the deploying entity.
 
 * **Engineering Fact: Modular Decoupling**
-* HJS serves as a modular **"Judicial Branch"**, strictly decoupled from the **"Executive"** layer (AI Proxies, Cloud providers, or LLM engines).
+* JEP serves as a modular **"Judicial Branch"**, strictly decoupled from the **"Executive"** layer (AI Proxies, Cloud providers, or LLM engines).
 * It is compatible with any AI Proxy (AIP), major Cloud provider, or air-gapped On-premise deployment.
 
 
@@ -41,7 +41,7 @@ HJS is designed to be infrastructure-agnostic, preventing vendor lock-in and res
 
 ### 3. Sovereign Boundary Enforcement
 
-* **Local Authority**: Because the HJS Sidecar is deployed within the user’s own infrastructure, the **Regulatory Anchor** remains under the user's sole jurisdictional control.
+* **Local Authority**: Because the JEP Sidecar is deployed within the user’s own infrastructure, the **Regulatory Anchor** remains under the user's sole jurisdictional control.
 * **Neutrality Fact**: Neither the HJS Foundation nor any third-party commercial entity has back-door access to the local Sidecar or its cryptographic keys. Control is anchored locally, while accountability is provable globally.
 
 ---
