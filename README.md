@@ -46,7 +46,7 @@ Example of a **Judgment Receipt** compliant with Article 13 requirements:
 ```json
 {
   "id": "018e1234-5678-7000-8000-1234567890ab", // Physical time-sequence index
-  "type": "HJS_JUDGMENT_EVENT",
+  "type": "JEP_JUDGMENT_EVENT",
   "actor": "ed25519:pubkey_of_ai_proxy",
   "primitives": ["Judge", "Delegate", "Terminate"],
   "policy_hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e...",
@@ -63,7 +63,7 @@ Example of a **Judgment Receipt** compliant with Article 13 requirements:
 * 📄 **[IMMUTABILITY_PROOF.md](https://github.com/hjs-spec/eusair-hjs-initial-assessment/blob/main/IMMUTABILITY_PROOF.md)**: Proof of non-repudiation.
 * 📄 **[EU_AI_ACT_MAPPING.md](https://github.com/hjs-spec/eusair-hjs-initial-assessment/blob/main/EU_AI_ACT_MAPPING.md)**: Regulatory field mapping.
 * 💻 **[compliance_demo.py](https://github.com/hjs-spec/eusair-hjs-initial-assessment/blob/main/compliance_demo.py)**: Live execution of Article 14 oversight.
-* 📕 **[HJS_Whitepaper_v1.0.pdf](https://github.com/hjs-spec/eusair-hjs-initial-assessment/blob/main/docs/HJS_Whitepaper_EU_AI_Act_Compliance_v1.0.pdf)**: Complete architectural reference.
+* 📕 **[JEP_Whitepaper_v1.0.pdf](https://github.com/hjs-spec/eusair-hjs-initial-assessment/blob/main/docs/HJS_Whitepaper_EU_AI_Act_Compliance_v1.0.pdf)**: Complete architectural reference.
 
 ---
 
