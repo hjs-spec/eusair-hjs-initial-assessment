@@ -1,17 +1,15 @@
 # HJS Technical Alignment with EU AI Act (Initial Assessment)
 
-This document outlines how the **HJS Sidecar Architecture** serves as the technical enforcement layer for compliance with the **EU AI Act** (High-Risk AI System Requirements).
+This document outlines how the **HJS Sidecar Architecture** serves as the technical enforcement layer for compliance with the **EU AI Act**, emphasizing **National Sovereignty**, the balance of **Public & Private Rights**, and the protocol's status as a **Global Public Good**.
 
 ---
 
 ## 1. Article 12: Record-keeping (Logging & Traceability)
 
-* **Requirement**: Mandatory automatic recording of events (logging) to ensure traceability of the AI system's functioning throughout its lifecycle.
+* **Requirement**: Mandatory automatic recording of events (logging) to ensure traceability.
 * **HJS Implementation**: **Physical Anchoring via UUIDv7 (RFC 9562)**
-* **Engineering Fact**: By utilizing a 48-bit Unix-epoch timestamp as the primary key prefix, HJS ensures that every "Judgment Event" is natively anchored to physical time.
-
-
-* **Compliance Value**: This creates an **irreversible chronological audit trail**. Regulators can reconstruct the exact state of AI decision-making at any specific millisecond in history without the risk of sequence manipulation or backdating.
+* **Engineering Fact**: Utilizing a 48-bit Unix-epoch timestamp as the primary key prefix to anchor every "Judgment Event" to physical time.
+* **Sovereignty Note**: Logs are generated and sequestered within the **Local Sovereign Jurisdiction**. This ensures that the "Memory of AI" remains under the control of the state where it is deployed, preventing foreign data extraction.
 
 
 
@@ -19,12 +17,14 @@ This document outlines how the **HJS Sidecar Architecture** serves as the techni
 
 ## 2. Article 13: Transparency and Provision of Information
 
-* **Requirement**: AI systems must be designed to ensure that their operation is sufficiently transparent to enable users to interpret the system’s output and use it appropriately.
+* **Requirement**: Systems must be transparent enough to enable users to interpret outputs.
 * **HJS Implementation**: **Semantic Transparency via Standardized Metadata**
-* **Engineering Fact**: Every HJS receipt encapsulates the decision logic in a **Machine-Readable (JSON-LD)** and **Human-Verifiable** format.
+* **Engineering Fact**: Decision logic is encapsulated in **Machine-Readable (JSON-LD)** formats.
+* **Balance of Rights**:
+* **Public Accountability**: Provides the **Policy Hash** required for regulatory audit.
+* **Private Autonomy**: Adopts a **"Hash-only Anchoring"** model. Only the cryptographic fingerprint is recorded for public proof; the **Private Payload** stays in the local environment, ensuring total compliance with **GDPR**.
 
 
-* **Compliance Value**: By binding each event to a **Policy Hash**, HJS eliminates the "Black Box" problem. Auditors can verify exactly which safety parameters and decision-making weights were active during a specific transaction, ensuring the logic behind the output is fully transparent and explainable.
 
 
 
@@ -32,12 +32,11 @@ This document outlines how the **HJS Sidecar Architecture** serves as the techni
 
 ## 3. Article 14: Human Oversight
 
-* **Requirement**: High-risk AI systems must be designed such that they can be effectively overseen by natural persons to prevent or minimize risks to health, safety, or fundamental rights.
+* **Requirement**: AI systems must be overseeable by natural persons to minimize risks.
 * **HJS Implementation**: **Mathematical Non-repudiation via Ed25519**
-* **Engineering Fact**: HJS utilizes **Ed25519 (RFC 8032)** asymmetric cryptography to sign every judgment event at the moment of creation.
-
-
-* **Compliance Value**: This provides a **Mathematical Fact of Responsibility**. Once a judgment is signed by the HJS Sidecar, the provider cannot deny or alter it (non-repudiation). This provides human overseers with **legally admissible evidence** for accountability and immediate intervention, fulfilling the "Human-in-the-loop" principle.
+* **Engineering Fact**: Asymmetric cryptography (RFC 8032) signs every judgment.
+* **Compliance Value**: Provides **Legally Admissible Evidence**.
+* **Sovereignty Empowerment**: This empowers **National Competent Authorities** to exercise their judicial power over AI behaviors, ensuring that digital entities operate within the boundaries of local law.
 
 
 
@@ -45,19 +44,33 @@ This document outlines how the **HJS Sidecar Architecture** serves as the techni
 
 ## 4. Article 15: Accuracy, Robustness, and Cybersecurity
 
-* **Requirement**: AI systems shall be designed and developed in such a way that they achieve an appropriate level of accuracy, robustness, and cybersecurity.
+* **Requirement**: AI systems must achieve an appropriate level of accuracy, robustness, and cybersecurity.
 * **HJS Implementation**: **Decentralized Sidecar Security Model**
-* **Engineering Fact**: The HJS Sidecar operates in a **Sovereign Environment** (On-premise or Private Cloud), isolating the compliance logic from the AI model's internal vulnerabilities.
-
-
-* **Compliance Value**: This ensures that even if the AI model provider is compromised, the **Judgment Integrity** and **Audit Logs** remain protected within the user's jurisdictional boundary, maintaining systemic robustness against external cyber threats.
+* **Sovereign Protection**: By maintaining a **"Local Compliance Gateway,"** HJS protects a nation's digital boundaries. Even if a global AI provider is compromised, the local state’s **Regulatory Sovereignty** remains intact.
 
 
 
 ---
 
+## 5. Institutional Neutrality & Public Good
+
+HJS is not a commercial product; it is a **Global Accountability Infrastructure**.
+
+* **Non-Profit Governance**: The HJS Protocol is managed by the **HJS Foundation LTD (Singapore)**, a Company Limited by Guarantee (CLG). As a non-profit entity with no shareholders, its sole mission is the maintenance of the protocol as a neutral utility.
+* **Respect for Dual Rights**:
+* **Public Interest**: We provide the "Chain of Responsibility" for the safety of the digital society.
+* **Private Sovereignty**: We respect the individual’s right to privacy and the state’s right to digital self-determination.
+
+
+* **Open Standard**: By keeping the core protocol open-source and foundation-led, HJS ensures that no single corporation or nation can monopolize the "Judgment of AI," making it a true **Global Public Good**.
+
+---
+
 ### 🚀 Auditor Quick Reference
 
-* **Protocol Version**: HJS-v1.0 (compliant with `draft-wang-hjs-judgment-event`)
-* **Verification Tool**: `python compliance_demo.py`
-* **Governance**: Managed by HJS Foundation LTD (Singapore)
+* **Protocol Version**: HJS-v1.0
+* **Institutional Status**: Foundation-led (Non-profit CLG)
+* **Sovereignty Compliance**: Supports localized, air-gapped node execution.
+* **Privacy Compliance**: GDPR-ready (Hash-based evidence).
+
+---
