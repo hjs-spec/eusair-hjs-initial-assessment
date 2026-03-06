@@ -1,7 +1,7 @@
 # EUSAiR Initial Assessment: HJS Protocol Implementation 🇪🇺
 ### *Technical Alignment for EU AI Act Compliance (Art. 12, 13, 14)*
 
-This repository serves as the official technical gateway for the **EUSAiR Initial Assessment (March 11, 2026)**. It demonstrates the **HJS (Human Judgment System) Protocol** as a neutral infrastructure for verifiable AI accountability.
+This repository serves as the official technical gateway for the **EUSAiR Initial Assessment (March 11, 2026)**. It demonstrates the **HJS Protocol** as a neutral infrastructure for verifiable AI accountability.
 
 ---
 
@@ -27,7 +27,7 @@ These resources provide the "Technical Documentation" required for high-risk AI 
 ---
 
 ## 🏛️ Institutional Backing & Stability
-The **EN-Human Judgment Systems Foundation LTD (Singapore)** provides the non-profit legal anchor to ensure the protocol remains a **neutral public good**.
+The **HJS Foundation LTD (Singapore)** provides the non-profit legal anchor to ensure the protocol remains a **neutral public good**.
 
 - **Neutrality**: Organized as a CLG (Company Limited by Guarantee) with no profit distribution.
 - **Independence**: Mandatory 1/3 independent director ratio (Constitution Art. 35A).
@@ -52,4 +52,4 @@ python compliance_demo.py
 
 *Prepared for the EUSAiR Initial Assessment Phase.* **Primary Contact:** [signal@humanjudgment.org](mailto:signal@humanjudgment.org)
 
-**Legal Entity:** EN-Human Judgment Systems Foundation LTD (Singapore)
+**Legal Entity:** HJS Foundation LTD (Singapore)
