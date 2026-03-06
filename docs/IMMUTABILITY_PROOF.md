@@ -1,12 +1,12 @@
 # Cryptographic Proof of Immutability
 
-To meet the high-integrity standards of **Article 12 (Record-keeping)** and **Article 14 (Human Oversight)** of the EU AI Act, the HJS Protocol provides a multi-layered mathematical guarantee ensuring that evidence is immutable and non-repudiable once generated.
+To meet the high-integrity standards of **Article 12 (Record-keeping)** and **Article 14 (Human Oversight)** of the EU AI Act, the JEP Protocol provides a multi-layered mathematical guarantee ensuring that evidence is immutable and non-repudiable once generated.
 
 ---
 
 ### 🛡️ The "Digital Notary" Chain
 
-HJS acts as a decentralized digital notary, binding AI behaviors to physical reality through three distinct technical facts:
+JEP acts as a decentralized digital notary, binding AI behaviors to physical reality through three distinct technical facts:
 
 #### 1. Temporal Integrity (Physical Fact)
 
@@ -30,7 +30,7 @@ HJS acts as a decentralized digital notary, binding AI behaviors to physical rea
 
 ### 🏛️ Evidence Persistence Layer
 
-To balance **Public Accountability** with **Private Sovereignty**, HJS utilizes a dual-layer storage architecture:
+To balance **Public Accountability** with **Private Sovereignty**, JEP utilizes a dual-layer storage architecture:
 
 1. **Private Payload**: Raw data and sensitive decision context remain stored within the user's local, sovereign database (GDPR Compliant).
 2. **Public Anchor**: Only the **SHA-256 Hash** and the **Ed25519 Signature** are exposed to the audit layer for traceability.
@@ -40,7 +40,7 @@ To balance **Public Accountability** with **Private Sovereignty**, HJS utilizes 
 
 ### 🚀 Verification Protocol for Auditors
 
-Auditors can verify the immutability of any HJS record using standard cryptographic tools:
+Auditors can verify the immutability of any JEP record using standard cryptographic tools:
 
 ```bash
 # Example: Verify the integrity of a Judgment Receipt
