@@ -1,6 +1,6 @@
 # HJS Foundation: Governance and Constitutional Principles 🏛️
 
-The **EN-Human Judgment Systems Foundation LTD.** is incorporated in Singapore as a **Company Limited by Guarantee (CLG)**. Our constitution is specifically customized to ensure the long-term neutrality and public availability of the HJS protocol.
+The **Human Judgment Systems Foundation LTD.** is incorporated in Singapore as a **Company Limited by Guarantee (CLG)**. Our constitution is specifically customized to ensure the long-term neutrality and public availability of the HJS protocol.
 
 ## ⚖️ Core Statutory Safeguards
 
