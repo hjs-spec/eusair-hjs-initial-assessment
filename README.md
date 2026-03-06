@@ -32,7 +32,7 @@ The Foundation exists solely to provide a stable, non-profit legal framework for
 - **Independence**: Governance structure includes mandatory independent oversight (Art. 35A).
 - **Sustainability**: Core protocol assets are permanently locked as a public good (Art. 67A).
 
-> ⚖️ **[View Foundation Constitution (Signed PDF)](https://github.com/hjs-spec/eusair-hjs-initial-assessment/blob/main/docs/Constitution_Human%20Judgment%20Systems%20Foundation%20Ltd_signed.pdf)**
+**[Operational Whitepaper (PDF)](https://github.com/hjs-spec/eusair-hjs-initial-assessment/blob/main/docs/HJS_Compliance_Whitepaper_v1.0.pdf)**: Detailed technical specifications for the EUSAiR pilot.
 
 ---
 
