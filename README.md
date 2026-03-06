@@ -16,12 +16,17 @@ We have bridged the gap between legal requirements and technical execution. The 
 
 ---
 
-## ⚓ The Triple Anchor Mechanism
-To ensure AI accountability is not just a "policy" but a **technical certainty**, the HJS Protocol is anchored in three objective dimensions:
+## ⚓ The HJS Anchoring Philosophy
+Unlike traditional "trust-based" protocols, HJS provides a **Three-Dimensional Anchor** to ensure AI accountability:
 
-1. **Mathematical Anchor (Integrity)**: Every judgment is secured by **Ed25519** cryptographic signatures. We rely on the laws of mathematics—not human trust—to ensure that AI authorizations remain tamper-proof.
-2. **Physical Anchor (Traceability)**: By utilizing **RFC 9562 (UUIDv7)**, we hardcode a millisecond-precision Unix timestamp into every record. This anchors AI behavior in the unidirectional flow of physical time, preventing audit-trail manipulation.
-3. **Sovereign Anchor (Compliance)**: Our **Decentralized Sidecar** architecture allows for local deployment within EU borders. This ensures that AI tool-calls are governed by regional laws, fully respecting **European Digital Sovereignty**.
+1. **Mathematical Anchor (Integrity)**: 
+   Leveraging **Ed25519** elliptic curve signatures. We replace "human promises" with mathematical certainty. If a single bit of a judgment is altered, the math fails, ensuring absolute data integrity.
+
+2. **Physical Anchor (Temporal Order)**: 
+   Utilizing **RFC 9562 (UUIDv7)** to hardcode millisecond-precision Unix timestamps. By anchoring every AI decision in the unidirectional flow of physical time, we make audit-trail manipulation (backdating) physically impossible.
+
+3. **Sovereign Anchor (Local Governance)**: 
+   HJS supports **Decentralized Sidecar deployment**. This allows the EUSAiR or any sovereign entity to host their own "Logic Gateways," ensuring that AI behavior is governed by local laws and regional digital sovereignty.
 
 ---
 
