@@ -52,7 +52,7 @@ This document outlines how the **HJS Sidecar Architecture** serves as the techni
 
 ---
 
-5. Core Philosophy: Institutional Neutrality & Public Good
+## 5. Core Philosophy: Institutional Neutrality & Public Good
 HJS is not a commercial product; it is a Global Accountability Infrastructure driven by a commitment to digital justice.
 
 Non-Profit Philosophy: The HJS Protocol is managed by the HJS Foundation LTD (Singapore), a Company Limited by Guarantee (CLG). As a non-profit entity with no shareholders, our philosophy is to maintain the protocol as a neutral utility for all humanity.
