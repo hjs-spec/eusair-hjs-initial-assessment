@@ -1,49 +1,55 @@
 # EUSAiR Initial Assessment: HJS Protocol Implementation 🇪🇺
 ### *Technical Alignment for EU AI Act Compliance (Art. 12, 13, 14)*
 
-This repository contains the technical artifacts and reference implementation for the **Initial Meeting with EUSAiR (March 11, 2026)**. It demonstrates how the **HJS (Human Judgment System) Protocol** serves as a neutral "Responsibility Anchor" for high-risk AI tool calls.
+This repository serves as the official technical gateway for the **EUSAiR Initial Assessment (March 11, 2026)**. It demonstrates the **HJS (Human Judgment System) Protocol** as a neutral infrastructure for verifiable AI accountability.
 
 ---
 
-## 📍 Assessment Objectives
-Our goal is to provide a standardized, non-intrusive solution for the **Transparency** and **Traceability** requirements of the EU AI Act:
+## 📍 Core Regulatory Mapping
+We have bridged the gap between legal requirements and technical execution. The following matrix defines our **direct alignment** with the EU AI Act:
 
-- **Art. 12 (Record-keeping)**: Automated, time-ordered logging using **RFC 9562 (UUIDv7)**.
-- **Art. 13 (Transparency)**: Verifiable policy binding to ensure human-interpretable AI decisions.
-- **Art. 14 (Human Oversight)**: Cryptographic non-repudiation via **Ed25519** digital signatures.
+| EU AI Act Article | Regulatory Requirement | HJS Technical Solution (The Map) | Artifact |
+| :--- | :--- | :--- | :--- |
+| **Art. 12** | **Record-keeping** | Automated, immutable logging via **RFC 9562 (UUIDv7)** | [Demo](./compliance_demo.py) |
+| **Art. 13** | **Transparency** | Human-interpretable policy binding in **Scenario Sandbox** | [Scenarios](./scenarios/) |
+| **Art. 14** | **Human Oversight** | Cryptographic non-repudiation using **Ed25519 signatures** | [Proof](./IMMUTABILITY_PROOF.md) |
 
 ---
 
 ## 🛠️ Compliance Evidence & Artifacts
-To facilitate a practical review, we have prepared the following:
+These resources provide the "Technical Documentation" required for high-risk AI system assessment:
 
-1. **[Technical Mapping](./EU_AI_ACT_MAPPING.md)**: A clause-by-clause alignment with European standards.
-2. **[Traceability Demo](./compliance_demo.py)**: A running example of an immutable audit trail.
-3. **[Scenario Sandbox](./scenarios/)**: Practical demonstrations of "Approved" vs. "Denied" regulatory logic.
-4. **[Operational Whitepaper (PDF)](https://github.com/hjs-spec/eusair-hjs-initial-assessment/blob/main/docs/HJS_Compliance_Whitepaper_Initial_Assessment.md.pdf)**: Detailed technical specifications for the EUSAiR pilot.
+1. **📄 [Technical Mapping Guide](./EU_AI_ACT_MAPPING.md)**: A clause-by-clause alignment with European standards.
+2. **💻 [Traceability Demo](./compliance_demo.py)**: Live execution of a verifiable audit trail.
+3. **📂 [Scenario Sandbox](./scenarios/)**: Practical "Approved vs. Denied" logic for regulatory sandboxing.
+4. **📕 [Operational Whitepaper (PDF)](https://github.com/hjs-spec/eusair-hjs-initial-assessment/blob/main/docs/HJS_Compliance_Whitepaper_Initial_Assessment.md.pdf)**: Comprehensive technical specifications for the EUSAiR pilot.
 
 ---
 
 ## 🏛️ Institutional Backing & Stability
-To ensure the **neutrality** and **long-term reliability** of these technical standards, the protocol is maintained by the **EN-Human Judgment Systems Foundation LTD (Singapore)**.
+The **EN-Human Judgment Systems Foundation LTD (Singapore)** provides the non-profit legal anchor to ensure the protocol remains a **neutral public good**.
 
-The Foundation exists solely to provide a stable, non-profit legal framework for the protocol's evolution:
-- **Neutrality**: Operates as a Company Limited by Guarantee (CLG) with no profit distribution.
-- **Independence**: Governance structure includes mandatory independent oversight (Art. 35A).
-- **Sustainability**: Core protocol assets are permanently locked as a public good (Art. 67A).
+- **Neutrality**: Organized as a CLG (Company Limited by Guarantee) with no profit distribution.
+- **Independence**: Mandatory 1/3 independent director ratio (Constitution Art. 35A).
+- **Sustainability**: Core IP and protocol assets are permanently locked (Constitution Art. 67A).
 
-**[Operational Whitepaper (PDF)](https://github.com/hjs-spec/eusair-hjs-initial-assessment/blob/main/docs/HJS_Compliance_Whitepaper_v1.0.pdf)**: Detailed technical specifications for the EUSAiR pilot.
+> ⚖️ **[View Signed Foundation Constitution (PDF)](https://github.com/hjs-spec/eusair-hjs-initial-assessment/blob/main/docs/Constitution_Human%20Judgment%20Systems%20Foundation%20Ltd_signed.pdf)**
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Quick Start for Auditors
+To verify the protocol's compliance logic locally:
 ```bash
-# Clone and verify the compliance demo
+# Install dependencies
 pip install -r requirements.txt
+
+# Run the compliance evidence generator
 python compliance_demo.py
 
 ```
 
 ---
 
-*Prepared for the EUSAiR Initial Assessment Phase.* *Contact: [signal@humanjudgment.org*](mailto:signal@humanjudgment.org)
+*Prepared for the EUSAiR Initial Assessment Phase.* **Primary Contact:** [signal@humanjudgment.org](mailto:signal@humanjudgment.org)
+
+**Legal Entity:** EN-Human Judgment Systems Foundation LTD (Singapore)
