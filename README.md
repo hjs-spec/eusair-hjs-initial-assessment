@@ -34,7 +34,7 @@ This matrix provides a direct bridge between the legal mandates of the **EU AI A
 
 ### <a name="primitives"></a>D. Accountability Primitives
 
-* **The Four Primitives**: Following `draft-wang-hjs-judgment-event`, HJS establishes accountability through **Judge, Delegate, Terminate, and Verify** operations.
+* **The Four Primitives**: Following `draft-wang-hjs-judgment-event`, JEP establishes accountability through **Judge, Delegate, Terminate, and Verify** operations.
 * **Institutional Integrity**: Managed by the **HJS Foundation LTD (Singapore)**, a non-profit CLG.
 
 ---
