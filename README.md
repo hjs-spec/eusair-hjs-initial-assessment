@@ -7,7 +7,7 @@
 | **Article 12** | Record-keeping | UUIDv7 temporal sequencing | [`docs/IMMUTABILITY_PROOF.md`](https://github.com/hjs-spec/eusair-jep-initial-assessment/blob/main/docs/IMMUTABILITY_PROOF.md) |
 | **Article 13** | Transparency | JSON-LD metadata encapsulation | [`docs/EU_AI_ACT_MAPPING.md`](https://github.com/hjs-spec/eusair-jep-initial-assessment/blob/main/docs/EU_AI_ACT_MAPPING.md) |
 | **Article 14** | Human oversight | Ed25519 cryptographic non-repudiation | [`src/aip_jep/compliance_demo.py`](https://github.com/hjs-spec/eusair-jep-initial-assessment/blob/main/src/aip_jep/compliance_demo.py) |
-| **Article 15** | Robustness & security | Decentralized sidecar architecture | [`docs/JEP_Whitepaper_EU_AI_Act_Compliance_v1.0.pdf`](https://github.com/hjs-spec/eusair-jep-initial-assessment/blob/main/docs/JEP_Whitepaper_EU_AI_Act_Compliance_v1.0.pdf) |
+| **Article 15** | Robustness & security | Decentralized sidecar architecture | [`docs/JEP_Whitepaper_EU_AI_Act_Compliance_v1.0.pdf`](https://github.com/hjs-spec/eusair-jep-initial-assessment/blob/main/docs/JEP_Whitepaper_EU_AI_Act_Compliance_v1.0.pdf.pdf) |
 | **Article 50** | AI content transparency | Content provenance (UUIDv7 + Ed25519) | [`docs/CONTENT_PROVENANCE.md`](https://github.com/hjs-spec/eusair-jep-initial-assessment/blob/main/docs/CONTENT_PROVENANCE.md) |
 
 ---
