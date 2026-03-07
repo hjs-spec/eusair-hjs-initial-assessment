@@ -123,7 +123,7 @@ The HJS Foundation LTD (Singapore) operates as a non-profit CLG:
 
 ### 3.4 Data Sovereignty Evidence
 
-**File**: [`src/aip_jep/ai_compliance_integration.py`](https://github.com/hjs-spec/eusair-jep-initial-assessment/blob/main/src/aip_jep/ai_compliance_integration.py)
+**File**: [`src/aip_jep/ai_compliance_integration.py`](https://github.com/hjs-spec/eusair-jep-initial-assessment/blob/main/aip_jep/ai_compliance_integration.py)
 
 The sidecar architecture ensures compliance boundaries remain within sovereign jurisdiction:
 - ✅ Can be deployed on-premises
