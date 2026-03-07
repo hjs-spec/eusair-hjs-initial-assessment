@@ -207,7 +207,7 @@ print(f'Signature valid: {result}')
 | **Privacy Protection** | JSON | [`EVIDENCE/EVIDENCE_SNAPSHOT.json`](https://github.com/hjs-spec/eusair-jep-initial-assessment/blob/main/EVIDENCE/EVIDENCE_SNAPSHOT.json) | Proof of no PII in audit trail |
 | **Technical Neutrality** | Markdown | [`docs/TECHNICAL_NEUTRALITY.md`](https://github.com/hjs-spec/eusair-jep-initial-assessment/blob/main/docs/TECHNICAL_NEUTRALITY.md) | Model-agnostic design |
 | **Foundation Governance** | Markdown | [`docs/GOVERNANCE_CHARTER.md`](https://github.com/hjs-spec/eusair-jep-initial-assessment/blob/main/docs/GOVERNANCE_CHARTER.md) | Non-profit, public interest |
-| **Data Sovereignty** | Python | [`src/aip_jep/ai_compliance_integration.py`](https://github.com/hjs-spec/eusair-jep-initial-assessment/blob/main/src/aip_jep/ai_compliance_integration.py) | Sidecar architecture |
+| **Data Sovereignty** | Python | [`src/aip_jep/ai_compliance_integration.py`](https://github.com/hjs-spec/eusair-jep-initial-assessment/blob/main/aip_jep/ai_compliance_integration.py) | Sidecar architecture |
 | Compliance Evidence | Markdown | [`docs/COMPLIANCE_EVIDENCE.md`](https://github.com/hjs-spec/eusair-jep-initial-assessment/blob/main/docs/COMPLIANCE_EVIDENCE.md) | Complete Article-by-Article evidence |
 | EU AI Act Mapping | Markdown | [`docs/EU_AI_ACT_MAPPING.md`](https://github.com/hjs-spec/eusair-jep-initial-assessment/blob/main/docs/EU_AI_ACT_MAPPING.md) | Legal-to-technical mapping |
 | Immutability Proof | Markdown | [`docs/IMMUTABILITY_PROOF.md`](https://github.com/hjs-spec/eusair-jep-initial-assessment/blob/main/docs/IMMUTABILITY_PROOF.md) | Non-repudiation proof |
