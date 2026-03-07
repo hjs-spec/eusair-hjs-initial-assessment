@@ -11,7 +11,7 @@ The **HJS Foundation LTD.** is incorporated in Singapore as a **Company Limited 
 ### 2. Strategic Asset Lock-in (Art. 67A)
 The Foundation acts as the **Legal Guardian** of core assets which are permanently locked:
 - **Intellectual Property**: JEP Protocol Specifications and RDP standards.
-- **Infrastructure**: Core domains (`humanjudgment.org`, `humanlayer.io`) and trademarks.
+- **Infrastructure**: Core domains (`humanjudgment.org`, `humanlayer.io``judgmentevent.org`) and trademarks.
 - **Licensing**: Core documents remain permanently open under **CC BY-SA 4.0**.
 
 ### 3. Independent Governance (Art. 35A & 44)
